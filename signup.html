@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+</head>
+<style>
+
+.topcenter{
+	margin:auto;
+	width:35%;
+	height:45px;
+	padding:10px;
+	border:3px solid green;
+	background-color:lightgreen;
+}
+.topcenter:hover{
+	background-color:#73AD21;
+} 
+.center{
+	margin:auto;
+	width:35%;
+	height:auto;
+	padding:2px;
+	border: 1px solid black;
+	#background:lightgreen;
+}
+</style>
+<body>
+<div  class="topcenter">
+<div style="text-align:center" >
+<h1 style="font-size:30px">"THE TECH KNIGHTS"
+</h1>
+</div>
+</div>
+<br><br>
+<div class="center">
+
+	<form action="process.php" method="POST">
+		<div>
+			<label>First Name        </label>
+			<input type="text" name="firstName" placeholder="Enter first name here">
+		</div>
+
+		<br>
+		<div>
+			<label>Last Name</label>
+			<input type="text" name="lastName" placeholder="Enter last name here">
+		</div>
+
+		<br>
+
+		<div>
+			<label>Email</label>
+			<input type="email" name="email" placeholder="Enter email here">
+		</div>
+
+		<br>
+
+		<div>
+			<label>Password</label>
+			<input type="Password" name="password">
+		</div>
+
+		<br>
+
+		<div>
+			<label>Confirm Password</label>
+			<input type="Password" name="password">
+		</div>
+
+		<br>
+
+		<div>
+			<label>Age</label>
+			<input type="number" name="age" value="24">
+		</div>
+
+		<br>
+
+		<div>
+			<label>Birthday</label>
+			<input type="date" name="birthday">
+		</div>
+
+		<br>
+
+		<div>
+		<a href="file:///G:/html/shopping.html" >submit
+		</a>
+			<input type="submit" name="submit" value="submit"> 
+		</div>
+	</form>
+	<div style="text-align:center">
+	<p> already have an account</p>
+     <a href ="file:///G:/html/Login.html"> LOGIN HERE</a>
+	</div>
+</body>
+</html>
