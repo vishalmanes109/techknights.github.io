@@ -13,6 +13,13 @@
 	border:3px solid green;
 	background-color:lightgreen;
 }
+ img {
+	
+	width:100px;
+	float:left;
+	margin-left:350px;
+
+}
 .topcenter:hover{
 	background-color:#73AD21;
 } 
@@ -26,6 +33,7 @@
 }
 </style>
 <body>
+<img src="logo.jpg" alt="LOGO "  >
 <div  class="topcenter">
 <div style="text-align:center" >
 <h1 style="font-size:30px">"THE TECH KNIGHTS"
@@ -35,7 +43,7 @@
 <br><br>
 <div class="center">
 
-	<form action="process.php" method="POST">
+	<form action="myform.php" method="GET">
 		<div>
 			<label>First Name        </label>
 			<input type="text" name="firstName" placeholder="Enter first name here">
@@ -84,15 +92,15 @@
 
 		<br>
 
-		<div>
-		<a href="shopping.html" >submit
-		</a>
 			<input type="submit" name="submit" value="submit"> 
 		</div>
 	</form>
 	<div style="text-align:center">
 	<p> already have an account</p>
      <a href ="Login.html"> LOGIN HERE</a>
+     <br>
+     <a href="shopping.html" >HOME</a>
+
 	</div>
 </body>
 </html>
